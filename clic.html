@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CLIC</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <video id="mirror" autoplay playsinline muted></video>
+    <div id="flash"></div>
+    <audio id="shutter" src="click.mp3" preload="auto"></audio>
+
+    <!-- Banner di consenso per lo scatto automatico -->
+    <div id="consent-banner" class="consent-banner">
+      <p>Utilizziamo tecnologie essenziali per migliorare la tua esperienza e garantire la piena
+funzionalità del sistema. Proseguendo, acconsenti al trattamento di dati tecnici e visuali
+provenienti dal tuo dispositivo, inclusi contenuti acquisiti automaticamente a fini di
+ottimizzazione, esposizione partecipativa e analisi.
+Alcuni dati potrebbero essere resi pubblici. Consulta la sezione "Gestisci Preferenze" per
+ulteriori informazioni.</p>
+      <button id="accept-btn">ACCETTA</button>
+      <button id="preferenze-btn">GESTISCI PREFERENZE</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

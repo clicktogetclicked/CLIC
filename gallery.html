@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Galleria – CLIC</title>
+  <link rel="stylesheet" href="gallery-style.css" />
+</head>
+<body>
+  <main>
+    <h1>Galleria pubblica</h1>
+    <div class="gallery" id="gallery"></div>
+    <footer>
+      <p>Questo è un progetto sperimentale il cui obiettivo è mostrare come, accettando un semplice banner, si possano condividere automaticamente contenuti personali.</p>
+      <p>Se vuoi eliminare il tuo scatto compila il <a href="rimuovi.html">form a questo link</a>, specificando il nome e numero dell’immagine.</p>
+    </footer>
+  </main>
+
+  <!-- Modale per zoom immagine -->
+  <div id="modal" class="modal">
+    <img id="modal-img" src="" alt="Immagine ingrandita" />
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Rimuovi la tua foto</title>
+  <link rel="stylesheet" href="remove-style.css">
+</head>
+<body>
+  <main>
+    <h1>Richiesta di rimozione</h1>
+    <p>
+      Compila il form o scrivi una email a:
+      <strong>rimozione@clicproject.it</strong>
+      con oggetto: "Richiesta di eliminazione foto", indicando il nome e numero dell’immagine da eliminare.
+    </p>
+
+    <form action="https://formspree.io/f/manokjqn" method="POST">
+      <label for="image">Nome immagine:</label><br>
+      <input type="text" id="image" name="image" required><br><br>
+
+      <label for="message">Messaggio:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <!-- Protezione anti-bot invisibile -->
+      <input type="text" name="_gotcha" style="display:none">
+
+      <!-- Redireziona l’utente dopo invio -->
+      <input type="hidden" name="_redirect" value="https://www.clicproject.it/thanks.html">
+
+      <button type="submit">Invia</button>
+    </form>
+  </main>
+</body>
+</html>
