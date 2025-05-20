@@ -59,7 +59,7 @@ textarea {
 
 input[type="text"]:focus,
 textarea:focus {
-  border-color: #007bff;
+  border-color: #ff8c00;
   outline: none;
 }
 
@@ -67,7 +67,7 @@ button {
   display: block;
   width: 100%;
   padding: 12px 0;
-  background-color: #007bff;
+  background-color: #ff8c01;
   border: none;
   border-radius: 12px;
   color: white;
@@ -78,20 +78,5 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive */
-@media (max-width: 480px) {
-  main {
-    padding: 20px 15px;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  button {
-    font-size: 1rem;
-  }
+  background-color: #ff8c00;
 }
