@@ -1,0 +1,117 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1.5rem;
+  line-height: 1.6;
+}
+
+h1.main-title {
+  font-size: 1.8rem;
+  color: #ff8c00;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #cccccc;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Nuova intro */
+.intro-message {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem 1rem;
+  background: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 140, 0, 0.1);
+}
+
+.welcome-title {
+  font-size: 2rem;
+  color: #ff8c00;
+  margin-bottom: 1rem;
+}
+
+/* Sezione informativa sui rischi */
+.info-section {
+  margin: 3rem 1rem;
+  padding: 1rem 0;
+  border-top: 1px solid #444;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .info-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.info-box {
+  background-color: #1e1e1e;
+  padding: 1.2rem;
+  border-left: 4px solid #ff8c00;
+  border-radius: 6px;
+}
+
+.privacy-tips {
+  background-color: #181818;
+  border: 1px solid #333;
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+}
+
+.privacy-tips ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+}
+
+.privacy-tips li {
+  margin-bottom: 0.5rem;
+}
+
+/* Evidenziazione CLIC */
+.clic-highlight {
+  background-color: #1c1408;
+  color: #fff;
+  padding: 3rem 1.5rem;
+  border-top: 4px solid #ff8c00;
+  border-bottom: 4px solid #ff8c00;
+  margin: 4rem 0 2rem;
+}
+
+.clic-highlight h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff8c00;
+}
+
+.clic-highlight span {
+  color: #ff8c00;
+  font-weight: bold;
+}
+
+/* Conclusione finale */
+.conclusione-final {
+  margin: 4rem 1rem;
+  padding: 2rem;
+  border-top: 1px solid #444;
+  font-style: italic;
+}
