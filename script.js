@@ -110,7 +110,7 @@ acceptBtn.addEventListener('click', () => {
 });
 
 preferencesBtn.addEventListener('click', () => {
-  window.location.href = "preferences.html";
+  window.location.href = "spiegazione.html";
 });
 
 startCamera();
